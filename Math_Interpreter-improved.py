@@ -132,7 +132,7 @@ def main():
         
         print(f'{answer:.1f}')
 
-        another_calculation = input('Would you like to evalulate another expression? Press y to continue or any other key exsit:').lower()
+        another_calculation = input('Would you like to evalulate another expression? Press y to continue or any other key to exit:').lower()
         if another_calculation != 'y':
             break
 main()
